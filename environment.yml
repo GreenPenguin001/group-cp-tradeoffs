@@ -1,0 +1,23 @@
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10.15
+  - pip
+  - pytorch=2.5.0
+  - pytorch-cuda=12.4
+  - torchvision=0.20.0
+  - torchaudio=2.5.0
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - scipy=1.14.1
+  - matplotlib=3.9.2
+  - scikit-learn=1.5.2
+  - pillow=10.4.0
+  - notebook>=7,<8
+  - pip:
+      - transformers==4.44.2
+      - datasets==3.0.1
+      - safetensors==0.4.5
+      - accelerate==0.33.0

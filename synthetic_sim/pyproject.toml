@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthcp"
+version = "0.1.0"
+description = "Synthetic uncertainty-relation experiments"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy==1.26.4",
+    "pandas==2.2.3",
+    "scipy==1.14.1",
+    "matplotlib==3.9.2",
+]
+
+[project.scripts]
+synthcp-run = "synthcp.cli:main"
+synthcp-imbalance = "synthcp.minority_imbalance_diagnosis_with_freq_larger_fonts:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

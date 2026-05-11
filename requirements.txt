@@ -1,0 +1,12 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+matplotlib==3.9.2
+torch==2.4.0
+transformers==4.44.2
+datasets==3.0.1
+scikit-learn==1.5.2
+Pillow==10.4.0
+safetensors==0.4.5
+accelerate==0.33.0
+notebook>=7,<8
